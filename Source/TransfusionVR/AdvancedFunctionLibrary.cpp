@@ -61,5 +61,5 @@ void UAdvancedFunctionLibrary::CopySkeletalMeshToProcedural(USkeletalMeshCompone
 	}
 
 	//Create the procedural mesh
-	ProcMeshComponent->CreateMeshSection(0, VerticesArray, Tris, Normals, UV, Colors, Tangents, true);
+	ProcMeshComponent->CreateMeshSection(0, VerticesArray, Tris, Normals, UV, Colors, Tangents, false);
 }
