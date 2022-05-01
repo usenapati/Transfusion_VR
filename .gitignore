@@ -1,3 +1,6 @@
+# Ignore Rider Generated files
+.idea/*
+
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -72,6 +75,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+*.log
+Transfusion_VR/Saved/Config/Windows/EditorPerProjectUserSettings.ini
 
-# Ignore Rider Generated files
-.idea/*
+*.umap
